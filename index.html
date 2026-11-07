@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe: El Derecho al Agua</title>
+    <style>
+        /* --- VARIABLES Y ESTILOS BASE --- */
+        :root {
+            --bg-color: #f4f8f9;
+            --card-bg: #ffffff;
+            --primary-blue: #0f4c81;
+            --accent-cyan: #17a2b8;
+            --soft-green: #2a9d8f;
+            --dark-green: #1b4332;
+            --text-dark: #2b2d42;
+            --text-muted: #5c677d;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* --- ENCABEZADO --- */
+        header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--soft-green));
+            color: #ffffff;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* --- CONTENEDOR PRINCIPAL --- */
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 3rem auto;
+            padding: 0 1rem;
+        }
+
+        /* --- SECCIONES / TARJETAS --- */
+        section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+            border-left: 5px solid var(--accent-cyan);
+        }
+
+        section.green-border {
+            border-left-color: var(--soft-green);
+        }
+
+        section.dark-border {
+            border-left-color: var(--primary-blue);
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: var(--dark-green);
+            font-size: 1.2rem;
+            margin: 1.2rem 0 0.5rem 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: #eef7f6;
+            border: 1px solid #c2e5e1;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .stat-card {
+            background: #f0f7f9;
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid #d0e3e8;
+        }
+
+        .stat-card p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* --- CRÉDITOS Y FUENTES --- */
+        .footer-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            background: #e9f2f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #a5d6a7;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Derecho al Agua</h1>
+        <p>Trabajo Práctico de Formación Ética y Ciudadana</p>
+    </header>
+
+    <div class="container">
+
+        <!-- SECCIÓN 1: INTRODUCCIÓN -->
+        <section class="dark-border">
+            <h2>¿Qué es el Derecho al Agua?</h2>
+            <p>
+                El derecho al agua consiste, en reconocimiento de la Organización de las Naciones Unidas (ONU) desde el <strong>28 de julio de 2010</strong>, en asegurar que toda comunidad e individuo tenga un acceso equitativo al agua potable tanto para el uso personal, la salud y la higiene. Se encuentra directamente relacionado con otros derechos fundamentales como el derecho a la salud, a una vida digna y al desarrollo sostenible.
+            </p>
+            <p>
+                El agua es el recurso más valioso del planeta. Permite asegurar actividades industriales y económicas para el crecimiento de los países, así como la salud pública y el saneamiento adecuado. Estos dos últimos conceptos brindan bienestar general y protección contra enfermedades hídricas como el cólera y la diarrea.
+            </p>
+
+            <div class="highlight-box">
+                <h3>Contraste de Realidades Globales</h3>
+                <p>
+                    <strong>Escasez y mala gestión:</strong> En zonas como África, pese a las exigencias de la ONU, pueblos enteros carecen de acceso al agua. Las poblaciones deben caminar decenas de kilómetros diariamente para recolectarla en baldes desde ríos o arroyos no potables. En otros casos, la falta de recursos o la mala gestión estatal limitan la entrega a solo unos pocos litros semanales por familia.
+                </p>
+                <p>
+                    <strong>Marcos legales garantistas:</strong> Países como Canadá o Sudáfrica han implementado leyes específicas para señalar las obligaciones gubernamentales de proporcionar agua accesible, asequible y de buena calidad.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: SINGAPUR -->
+        <section class="green-border">
+            <h2>La Situación del Agua en Singapur: Sistema NEWater</h2>
+            <p>
+                Singapur desarrolló el sistema de gestión <strong>"NEWater"</strong>, lanzado en 2003, el cual recolecta agua de lluvia, la purifica y reutiliza aguas residuales para un suministro sostenible.
+            </p>
+            <ul>
+                <li>Actualmente cubre el <strong>40% de la demanda hídrica</strong> del país.</li>
+                <li>Se proyecta que alcanzará el <strong>55% para el año 2060</strong>.</li>
+                <li>Su calidad supera las normas de la Organización Mundial de la Salud (OMS).</li>
+            </ul>
+
+            <h3>Proceso de tratamiento en 3 etapas:</h3>
+            <ol style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                <li><strong>Microfiltración (o ultrafiltración):</strong> Separa bacterias y compuestos microscópicos.</li>
+                <li><strong>Ósmosis inversa:</strong> Elimina el 95% de los sólidos disueltos totales y pesticidas.</li>
+                <li><strong>Desinfección UV de alta intensidad:</strong> Destruye el ADN de microorganismos residuales para impedir su reproducción.</li>
+            </ol>
+            <p>Al finalizar el proceso, se agregan productos alcalinos para restaurar el pH adecuado del agua.</p>
+        </section>
+
+        <!-- SECCIÓN 3: CASO 9 DE JULIO -->
+        <section class="dark-border">
+            <h2>Caso Emblemático: Reclamos Judiciales en 9 de Julio (Buenos Aires)</h2>
+            <p>
+                En octubre de 2010, un grupo de 25 familias de la localidad de 9 de Julio (Buenos Aires) inició una marcha colectiva tras detectar la presencia de concentraciones extremas de arsénico en la red de agua potable. El agua alcanzaba los <strong>190 microgramos de arsénico por litro</strong>, cifra 19 veces superior al límite permitido por la OMS y el Código Alimentario Argentino (CAA).
+            </p>
+
+            <h3>Evolución del Conflicto Judicial</h3>
+            <ul>
+                <li><strong>Medida Cautelar Inicial:</strong> La justicia obligó a la prestadora <em>Aguas Bonaerenses SA (ABSA)</em> a suministrar bidones de agua potable a las familias afectadas.</li>
+                <li><strong>Adhesión Masiva:</strong> Tres meses después, tras sumar apoyo en escuelas y hospitales, <strong>2.461 vecinos</strong> se sumaron al reclamo.</li>
+                <li><strong>Extensión Cautelar (Agosto 2011):</strong> El juez Marcelo Giacoia ordenó extender la entrega de bidones a todos los nuevos adherentes. La medida fue confirmada por la Cámara Contencioso Administrativa de La Plata (octubre 2011) y por la Suprema Corte Provincial (agosto 2012).</li>
+                <li><strong>Incumplimiento y Multas:</strong> ABSA se rehusó a cumplir hasta que en febrero de 2013 el juez le aplicó una multa de <strong>$1.500.000 mensuales</strong>, comenzando a actuar de forma irregular.</li>
+                <li><strong>Fallo de la Corte Nacional (Diciembre 2014):</strong> Con la intervención del médico Juan Gabriel Kersich, la Corte Suprema de la Nación rechazó la apelación de ABSA, mantuvo la cautelar y ordenó adecuar la causa a un proceso colectivo. Además, reconoció oficialmente el derecho al agua para la sociedad y la naturaleza.</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>Impacto Positivo Posterior</h3>
+                <p><strong> Ley 14.782:</strong> Sancionada el 17 de diciembre de 2015 en la provincia de Buenos Aires, reconociendo el derecho al acceso al agua potable y saneamiento.</p>
+                <p><strong> Planta Potabilizadora:</strong> En agosto de 2016, ABSA inauguró una planta de remoción de arsénico para mantener los niveles por debajo de los 10 microgramos por litro.</p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: PRIVATIZACIÓN -->
+        <section class="green-border">
+            <h2>Privatización del Río Paraná y el Paraguay</h2>
+            <p>
+                En junio de este año se concretó la concesión privada de los ríos Paraná y Paraguay. La operación quedó asignada a la empresa multinacional belga <strong>Jan De Nul</strong> (que operó en el área entre 1995 y 2021) junto a su socia argentina <strong>Servi Magnus</strong>, tras dejar fuera a la firma belga DEME. El contrato es por <strong>25 años</strong> (con opción a extensión de 5 años).
+            </p>
+            <p>
+                Esta vía navegable es clave para el Mercosur, ya que permite la salida al Océano Atlántico a barcos provenientes de 5 países. El contrato abarca desde el kilómetro 1.238 del Río Paraná (confluencia con el Río Paraguay) hasta las zonas profundas del Río de La Plata, contemplando la operación, cobro de peajes, señalización, mantenimiento y dragado.
+            </p>
+            <p>
+                El Gobierno argumenta que permitirá modernizar la Hidrovía e incorporar tecnología para la seguridad y lucha contra el narcotráfico. Se estiman ingresos anuales promedio de <strong>628,2 millones de dólares</strong> para el operador, alcanzando los 15.707 millones hacia el final del contrato.
+            </p>
+
+            <div class="highlight-box">
+                <h3>Polémica y Críticas</h3>
+                <p>
+                    El proceso enfrentó controversias desde noviembre de 2024, cuando empresas estadounidenses enviaron cartas a la Casa Blanca y al gobierno argentino denunciando falta de transparencia. Aunque hubo acusaciones sobre vínculos con empresas chinas, Jan De Nul afirmó que solo utilizará tecnología occidental.
+                </p>
+                <p>
+                    Sectores opositores critican severamente la medida por considerarla una <strong>pérdida de soberanía hídrica</strong> y por la noción de percibir al agua como un bien mercantil en lugar de un derecho humano.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: DATOS Y DESAFÍOS -->
+        <section class="dark-border">
+            <h2>Desafíos Globales del Agua</h2>
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <p><strong>2.200 millones de personas</strong> carecen de acceso a servicios de agua potable bien gestionados (incluyendo 115 millones que beben agua superficial).</p>
+                </div>
+                <div class="stat-card">
+                    <p><strong>3.500 millones de personas</strong> no cuentan con servicios de saneamiento efectivos y seguros.</p>
+                </div>
+                <div class="stat-card">
+                    <p>El <strong>80% de las aguas residuales</strong> retornan al ecosistema sin ser tratadas ni reutilizadas.</p>
+                </div>
+                <div class="stat-card">
+                    <p>Un <strong>10% de la población mundial</strong> vive en países con estado alto o crítico de estrés hídrico.</p>
+                </div>
+                <div class="stat-card">
+                    <p>La agricultura utiliza aproximadamente el <strong>72% de toda el agua dulce</strong> extraída.</p>
+                </div>
+                <div class="stat-card">
+                    <p>Los desastres naturales hídricos representan el <strong>70% de todas las muertes</strong> por catástrofes en los últimos 50 años.</p>
+                </div>
+            </div>
+            <p style="margin-top: 1rem;">
+                Las enfermedades infecciosas propagadas por agua contaminada o desechos mal gestionados tienen un alto impacto en la mortalidad infantil, desnutrición y enfermedades crónicas como el cólera.
+            </p>
+        </section>
+
+        <!-- SECCIÓN 6: FUENTES Y CRÉDITOS -->
+        <div class="footer-info">
+            <div>
+                <h3 style="margin-top: 0;">Fuentes Utilizadas</h3>
+                <ul>
+                    <li><a href="https://www.un.org/es/global-issues/water" target="_blank">ONU - Problemas Globales: Agua</a></li>
+                    <li><a href="https://elpais.com/argentina/2026-06-19/la-belga-jan-de-nul-obtiene-en-argentina-la-concesion-de-la-hidrovia-la-mayor-privatizacion-de-milei.html" target="_blank">El País - Concesión Hidrovía</a></li>
+                    <li><a href="https://naturaleza.ar/contenido/297/el-derecho-humano-al-agua-potable-en-argentina" target="_blank">El Derecho Humano al Agua Potable en Argentina</a></li>
+                    <li><a href="https://conambiental.com/que-es-el-derecho-al-agua/" target="_blank">ConAmbiental - ¿Qué es el derecho al agua?</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="margin-top: 0;">Integrantes del Trabajo</h3>
+                <ul>
+                    <li>Alvarez Matias</li>
+                    <li>Cabrera Lautaro</li>
+                    <li>Pighin Tomás</li>
+                    <li>Rodríguez Bruno</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Informe Educativo sobre el Derecho al Agua &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
